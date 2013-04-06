@@ -6,6 +6,7 @@ require "bundler/setup"
 require "eventmachine"
 require "nats/client"
 require "vcap/logging"
+require "vcap/common"
 
 module RouterRegistrar
 
